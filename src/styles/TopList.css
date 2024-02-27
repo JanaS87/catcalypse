@@ -1,0 +1,17 @@
+.colored-number {
+    color: #FF8911;
+    font-size: 1.5rem;
+}
+
+.ordered-list {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5%;
+    padding: 0;
+}
+
+.ordered-list li {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0.5rem;
+}

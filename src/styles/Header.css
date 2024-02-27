@@ -1,0 +1,25 @@
+header {
+    background-image: url("../assets/img/cat.png"), url("../assets/img/cat.png");
+    background-size: 9%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, right;
+    padding: 1rem;
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Snell Roundhand', cursive;
+    font-size: 3rem;
+}
+
+.second-title {
+    font-weight: bold;
+    color: #B5C0D0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}

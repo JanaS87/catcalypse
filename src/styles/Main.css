@@ -1,0 +1,19 @@
+.catpic img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+main {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.introduction {
+    margin-bottom: 40px;
+}
+
+.ideas {
+    margin-bottom: 40px;
+}
