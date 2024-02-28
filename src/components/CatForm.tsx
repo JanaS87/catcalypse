@@ -24,7 +24,7 @@ export default function CatForm() {
                           cols={30}
                           rows={10}
                           maxLength={100}></textarea>
-                <input type="submit" value="Send" />
+                <input className={"form-btn"} type="submit" value="Send" />
             </form>
 
         </section>
