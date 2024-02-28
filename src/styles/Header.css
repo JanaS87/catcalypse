@@ -6,6 +6,38 @@ header {
     padding: 1rem;
 }
 
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-list li {
+    margin: 0 1rem;
+}
+
+.navigation-list a {
+    text-decoration: none;
+    color: #222;
+    font-family: "Snell Roundhand", cursive;
+    font-size: 1.5rem;
+}
+
+.navigation-list li a.active {
+    text-decoration: underline; /* Unterstreicht die aktive Route */
+}
+
+.navigation-list li:last-child {
+    margin-right: 0;
+}
+
 .title {
     font-weight: bold;
     text-align: center;
@@ -23,3 +55,4 @@ header {
     margin: 0;
     padding: 0;
 }
+
